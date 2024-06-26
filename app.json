@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "FW16",
+    "slug": "FW16",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconn.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],  // Array syntax corrected
+    "splash": {
+      "image": "./assets/iconn.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iconn.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.galeduc.FW16"
+    },
+    "web": {
+      "favicon": "./assets/iconn.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0c4a6cfd-b62c-476f-b016-4c3bcd623323"
+      }
+    }
+  }
+}
